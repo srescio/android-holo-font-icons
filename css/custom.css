@@ -4,14 +4,26 @@
 @-o-viewport{width:device-width}
 @viewport{width:device-width}
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 110px;
+}
+
+[class*="span"] {
+  margin-left: 0;
+  padding:5px 20px;
+}
+
 .container.header {
   margin: 0 auto;
   width: 100%;
   left: auto;
   max-width: none;
   padding: 0 20px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -34,18 +46,39 @@ h1 {
   display: inline-block;
   float: none;
   text-align: left;
-  width: 350px;
+  width: 390px;
 }
 
 .the-icons {
   font-size: 13px;
+  position: relative;
 }
-
-
+.the-icons i {
+  font-size: 1.7em;
+  margin: 0 0 0 -6px;
+  position: absolute;
+}
+.i-name,
+.i-code {
+  padding: 0 0 0 25px;
+}
+.i-name {
+  display: inline-block;
+}
 
 @media screen and (max-width: 1500px) {
   .container {
     max-width: 1100px;
     width: auto;
+  }
+}
+@media screen and (max-width: 390px) {
+  body {
+    margin-top: 150px;
+  }
+
+  .span3 {
+    width: 100%;
+    word-break: break-all;
   }
 }
