@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'android-icons';
+  src: url('../font/android-icons.eot?56898335');
+  src: url('../font/android-icons.eot?56898335#iefix') format('embedded-opentype'),
+       url('../font/android-icons.woff?56898335') format('woff'),
+       url('../font/android-icons.ttf?56898335') format('truetype'),
+       url('../font/android-icons.svg?56898335#android-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'android-icons';
+    src: url('../font/android-icons.svg?56898335#android-icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="holo-"]:before, [class*=" holo-"]:before {
+  font-family: "android-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.holo-01_core_search:before { content: '\e800'; } /* '' */
+.holo-01_core_select_all:before { content: '\e801'; } /* '' */
+.holo-01_core_share:before { content: '\e802'; } /* '' */
+.holo-01_core_undo:before { content: '\e803'; } /* '' */
+.holo-01_core_accept:before { content: '\e804'; } /* '' */
+.holo-01_core_call:before { content: '\e805'; } /* '' */
+.holo-01_core_cancel:before { content: '\e806'; } /* '' */
+.holo-01_core_copy:before { content: '\e807'; } /* '' */
+.holo-01_core_cut:before { content: '\e808'; } /* '' */
+.holo-01_core_discard:before { content: '\e809'; } /* '' */
+.holo-01_core_edit:before { content: '\e80a'; } /* '' */
+.holo-01_core_new:before { content: '\e80b'; } /* '' */
+.holo-01_core_overflow:before { content: '\e80c'; } /* '' */
+.holo-01_core_paste:before { content: '\e80d'; } /* '' */
+.holo-01_core_refresh:before { content: '\e80e'; } /* '' */
+.holo-01_core_remove:before { content: '\e80f'; } /* '' */
+.holo-02_navigation_previous_item:before { content: '\e810'; } /* '' */
+.holo-02_navigation_next_item:before { content: '\e811'; } /* '' */
+.holo-02_navigation_back:before { content: '\e812'; } /* '' */
+.holo-02_navigation_collapse:before { content: '\e813'; } /* '' */
+.holo-02_navigation_expand:before { content: '\e814'; } /* '' */
+.holo-02_navigation_forward:before { content: '\e815'; } /* '' */
+.holo-03_rating_bad:before { content: '\e816'; } /* '' */
+.holo-03_rating_favorite:before { content: '\e817'; } /* '' */
+.holo-03_rating_good:before { content: '\e818'; } /* '' */
+.holo-03_rating_half_important:before { content: '\e819'; } /* '' */
+.holo-03_rating_important:before { content: '\e81a'; } /* '' */
+.holo-03_rating_not_important:before { content: '\e81b'; } /* '' */
+.holo-04_collections_cloud:before { content: '\e81c'; } /* '' */
+.holo-04_collections_collection:before { content: '\e81d'; } /* '' */
+.holo-04_collections_go_to_today:before { content: '\e81e'; } /* '' */
+.holo-04_collections_labels:before { content: '\e81f'; } /* '' */
+.holo-04_collections_new_label:before { content: '\e820'; } /* '' */
+.holo-04_collections_sort_by_size:before { content: '\e821'; } /* '' */
+.holo-04_collections_view_as_grid:before { content: '\e822'; } /* '' */
+.holo-04_collections_view_as_list:before { content: '\e823'; } /* '' */
+.holo-05_content_attachment:before { content: '\e824'; } /* '' */
+.holo-05_content_backspace:before { content: '\e825'; } /* '' */
+.holo-05_content_email:before { content: '\e826'; } /* '' */
+.holo-05_content_event:before { content: '\e827'; } /* '' */
+.holo-05_content_import_export:before { content: '\e828'; } /* '' */
+.holo-05_content_merge:before { content: '\e829'; } /* '' */
+.holo-05_content_new_attachment:before { content: '\e82a'; } /* '' */
+.holo-05_content_new_email:before { content: '\e82b'; } /* '' */
+.holo-05_content_new_event:before { content: '\e82c'; } /* '' */
+.holo-05_content_new_picture:before { content: '\e82d'; } /* '' */
+.holo-05_content_picture:before { content: '\e82e'; } /* '' */
+.holo-05_content_read:before { content: '\e82f'; } /* '' */
+.holo-05_content_save:before { content: '\e830'; } /* '' */
+.holo-05_content_split:before { content: '\e831'; } /* '' */
+.holo-05_content_unread:before { content: '\e832'; } /* '' */
+.holo-06_social_add_group:before { content: '\e833'; } /* '' */
+.holo-06_social_add_person:before { content: '\e834'; } /* '' */
+.holo-06_social_cc_bcc:before { content: '\e835'; } /* '' */
+.holo-06_social_chat:before { content: '\e836'; } /* '' */
+.holo-06_social_forward:before { content: '\e837'; } /* '' */
+.holo-06_social_group:before { content: '\e838'; } /* '' */
+.holo-06_social_person:before { content: '\e839'; } /* '' */
+.holo-06_social_reply_all:before { content: '\e83a'; } /* '' */
+.holo-06_social_reply:before { content: '\e83b'; } /* '' */
+.holo-06_social_send_now:before { content: '\e83c'; } /* '' */
+.holo-07_location_directions:before { content: '\e83d'; } /* '' */
+.holo-07_location_location_found:before { content: '\e83e'; } /* '' */
+.holo-07_location_location_off:before { content: '\e83f'; } /* '' */
+.holo-07_location_location_searching:before { content: '\e840'; } /* '' */
+.holo-07_location_map:before { content: '\e841'; } /* '' */
+.holo-07_location_place:before { content: '\e842'; } /* '' */
+.holo-07_location_web_site:before { content: '\e843'; } /* '' */
+.holo-08_camera_camera:before { content: '\e844'; } /* '' */
+.holo-08_camera_crop:before { content: '\e845'; } /* '' */
+.holo-08_camera_flash_automatic:before { content: '\e846'; } /* '' */
+.holo-08_camera_flash_off:before { content: '\e847'; } /* '' */
+.holo-08_camera_flash_on:before { content: '\e848'; } /* '' */
+.holo-08_camera_mic_muted:before { content: '\e849'; } /* '' */
+.holo-08_camera_mic:before { content: '\e84a'; } /* '' */
+.holo-08_camera_rotate_left:before { content: '\e84b'; } /* '' */
+.holo-08_camera_rotate_right:before { content: '\e84c'; } /* '' */
+.holo-08_camera_switch_camera:before { content: '\e84d'; } /* '' */
+.holo-08_camera_switch_video:before { content: '\e84e'; } /* '' */
+.holo-08_camera_video:before { content: '\e84f'; } /* '' */
+.holo-09_media_add_to_queue:before { content: '\e850'; } /* '' */
+.holo-09_media_cast:before { content: '\e851'; } /* '' */
+.holo-09_media_download:before { content: '\e852'; } /* '' */
+.holo-09_media_fast_forward:before { content: '\e853'; } /* '' */
+.holo-09_media_full_screen:before { content: '\e854'; } /* '' */
+.holo-09_media_make_available_offline:before { content: '\e855'; } /* '' */
+.holo-09_media_next:before { content: '\e856'; } /* '' */
+.holo-09_media_pause_over_video:before { content: '\e857'; } /* '' */
+.holo-09_media_pause:before { content: '\e858'; } /* '' */
+.holo-09_media_play_over_video:before { content: '\e859'; } /* '' */
+.holo-09_media_play:before { content: '\e85a'; } /* '' */
+.holo-09_media_previous:before { content: '\e85b'; } /* '' */
+.holo-09_media_repeat:before { content: '\e85c'; } /* '' */
+.holo-09_media_replay:before { content: '\e85d'; } /* '' */
+.holo-09_media_return_from_full_screen:before { content: '\e85e'; } /* '' */
+.holo-09_media_rewind:before { content: '\e85f'; } /* '' */
+.holo-09_media_shuffle:before { content: '\e860'; } /* '' */
+.holo-09_media_slideshow:before { content: '\e861'; } /* '' */
+.holo-09_media_stop:before { content: '\e862'; } /* '' */
+.holo-09_media_upload:before { content: '\e863'; } /* '' */
+.holo-09_media_volume_muted:before { content: '\e864'; } /* '' */
+.holo-09_media_volume_on:before { content: '\e865'; } /* '' */
+.holo-10_device_access_accounts:before { content: '\e866'; } /* '' */
+.holo-10_device_access_add_alarm:before { content: '\e867'; } /* '' */
+.holo-10_device_access_airplane_mode_off:before { content: '\e868'; } /* '' */
+.holo-10_device_access_airplane_mode_on:before { content: '\e869'; } /* '' */
+.holo-10_device_access_alarms:before { content: '\e86a'; } /* '' */
+.holo-10_device_access_battery:before { content: '\e86b'; } /* '' */
+.holo-10_device_access_bightness_low:before { content: '\e86c'; } /* '' */
+.holo-10_device_access_bluetooth_connected:before { content: '\e86d'; } /* '' */
+.holo-10_device_access_bluetooth_searching:before { content: '\e86e'; } /* '' */
+.holo-10_device_access_bluetooth:before { content: '\e86f'; } /* '' */
+.holo-10_device_access_brightness_auto:before { content: '\e870'; } /* '' */
+.holo-10_device_access_brightness_high:before { content: '\e871'; } /* '' */
+.holo-10_device_access_brightness_medium:before { content: '\e872'; } /* '' */
+.holo-10_device_access_data_usage:before { content: '\e873'; } /* '' */
+.holo-10_device_access_dial_pad:before { content: '\e874'; } /* '' */
+.holo-10_device_access_end_call:before { content: '\e875'; } /* '' */
+.holo-10_device_access_network_cell:before { content: '\e876'; } /* '' */
+.holo-10_device_access_network_wifi:before { content: '\e877'; } /* '' */
+.holo-10_device_access_new_account:before { content: '\e878'; } /* '' */
+.holo-10_device_access_not_secure:before { content: '\e879'; } /* '' */
+.holo-10_device_access_ring_volume:before { content: '\e87a'; } /* '' */
+.holo-10_device_access_screen_locked_to_landscape:before { content: '\e87b'; } /* '' */
+.holo-10_device_access_screen_locked_to_portrait:before { content: '\e87c'; } /* '' */
+.holo-10_device_access_screen_rotation:before { content: '\e87d'; } /* '' */
+.holo-10_device_access_sd_storage:before { content: '\e87e'; } /* '' */
+.holo-10_device_access_secure:before { content: '\e87f'; } /* '' */
+.holo-10_device_access_storage:before { content: '\e880'; } /* '' */
+.holo-10_device_access_time:before { content: '\e881'; } /* '' */
+.holo-10_device_access_usb:before { content: '\e882'; } /* '' */
+.holo-11_hardware_computer:before { content: '\e883'; } /* '' */
+.holo-11_hardware_dock:before { content: '\e884'; } /* '' */
+.holo-11_hardware_gamepad:before { content: '\e885'; } /* '' */
+.holo-11_hardware_headphones:before { content: '\e886'; } /* '' */
+.holo-11_hardware_headset:before { content: '\e887'; } /* '' */
+.holo-11_hardware_keyboard:before { content: '\e888'; } /* '' */
+.holo-11_hardware_mouse:before { content: '\e889'; } /* '' */
+.holo-11_hardware_phone:before { content: '\e88a'; } /* '' */
+.holo-12_alerts_and_states_error:before { content: '\e88b'; } /* '' */
+.holo-12_alerts_and_states_warning:before { content: '\e88c'; } /* '' */
+.holo-13_extra_actions_about:before { content: '\e88d'; } /* '' */
+.holo-13_extra_actions_help:before { content: '\e88e'; } /* '' */
+.holo-13_extra_actions_settings:before { content: '\e88f'; } /* '' */

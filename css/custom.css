@@ -1,0 +1,51 @@
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+.container.header {
+  margin: 0 auto;
+  width: 100%;
+  left: auto;
+  max-width: none;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 10px 100px 10px 0;
+}
+
+.switch {
+  right: 20px;
+}
+
+.container {
+  max-width: 1660px;
+  width: auto;
+}
+.row {
+  margin: auto;
+  text-align: center;
+}
+.span3 {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  width: 350px;
+}
+
+.the-icons {
+  font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .container {
+    max-width: 1100px;
+    width: auto;
+  }
+}
